@@ -160,7 +160,7 @@ Error generating stack: `+a.message+`
             padding: var(--spacing-md);
           }
         }
-      `})]})},sh="/portfolio/assets/avatar-DctXrvDJ.jpg",rh=({setCurrentSection:A})=>{const O=()=>{A("projects"),document.getElementById("projects").scrollIntoView({behavior:"smooth"})};return s.jsxs("section",{id:"home",className:"section hero",style:{"--section-bg":"#f5f9f7","--section-bg2":"#e8efea"},children:[s.jsx("div",{className:"hero-content",children:s.jsxs("div",{className:"hero-text",children:[s.jsx("div",{className:"hero-badge",children:s.jsx("span",{children:"Software Engineer II"})}),s.jsxs("div",{className:"hero-title-section",children:[s.jsx("h1",{className:"hero-title",children:"Alisha Taylor"}),s.jsx("div",{className:"hero-avatar",children:s.jsx("img",{src:sh,alt:"Alisha Taylor avatar",className:"avatar-img",loading:"lazy"})})]}),s.jsx("span",{className:"hero-subtitle",children:"Still believes in the magic of coding"}),s.jsx("p",{className:"hero-description",children:"Crafting digital adventures with 5+ years of coding expertise. Specializing in Ruby on Rails, React, and JavaScript. Seeking remote opportunities in education, open source, and mission-driven companies."}),s.jsxs("div",{className:"hero-location",children:[s.jsx(dd,{size:16}),s.jsx("span",{children:"Open to Remote Worldwide (US citizen, US/UK time zone–friendly preferred)"})]}),s.jsxs("div",{className:"hero-actions",children:[s.jsxs("a",{href:"https://github.com/atayl16",target:"_blank",rel:"noopener noreferrer",className:"btn btn-outline",children:[s.jsx(qu,{size:18})," GitHub"]}),s.jsxs("a",{href:"https://www.linkedin.com/in/alisha-t-098785180/",target:"_blank",rel:"noopener noreferrer",className:"btn btn-outline",children:[s.jsx(nf,{size:18})," LinkedIn"]}),s.jsxs("button",{onClick:O,className:"btn btn-outline",children:[s.jsx(rd,{size:18})," View Projects"]})]}),s.jsxs("div",{className:"quick-stats-row fade-in-up",children:[s.jsxs("div",{className:"stat-item",children:[s.jsx("span",{className:"stat-number",children:"5+"}),s.jsx("span",{className:"stat-label",children:"Years Coding"})]}),s.jsx("div",{className:"stat-divider"}),s.jsxs("div",{className:"stat-item",children:[s.jsx("span",{className:"stat-number",children:"10+"}),s.jsx("span",{className:"stat-label",children:"Years Tech"})]}),s.jsx("div",{className:"stat-divider"}),s.jsxs("div",{className:"stat-item",children:[s.jsx("span",{className:"stat-number",children:"3"}),s.jsx("span",{className:"stat-label",children:"Projects"})]}),s.jsx("div",{className:"stat-divider"}),s.jsxs("div",{className:"stat-item",children:[s.jsx("span",{className:"stat-number",children:"∞"}),s.jsx("span",{className:"stat-label",children:"Possibilities"})]})]})]})}),s.jsx("div",{className:"hero-scroll",children:s.jsx("button",{onClick:O,className:"scroll-button","aria-label":"Scroll to projects section",children:s.jsx(Wm,{size:24})})}),s.jsx("div",{className:"section-divider",children:s.jsxs("svg",{viewBox:"0 0 700 48",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:[s.jsx("path",{d:"M20 24 Q 80 0 160 24 Q 240 48 320 24 Q 350 12 380 24 Q 460 48 540 24 Q 620 0 680 24",stroke:"#b7a77a",strokeWidth:"4",fill:"none"}),s.jsx("path",{d:"M20 24 Q 80 40 160 24 Q 240 8 320 24 Q 350 36 380 24 Q 460 8 540 24 Q 620 40 680 24",stroke:"#355e3b",strokeWidth:"2.5",fill:"none"}),s.jsx("ellipse",{cx:"350",cy:"24",rx:"10",ry:"6",stroke:"#b7a77a",strokeWidth:"2",fill:"none"}),s.jsx("ellipse",{cx:"350",cy:"24",rx:"5",ry:"3",stroke:"#355e3b",strokeWidth:"1.5",fill:"none"})]})}),s.jsx("style",{children:`
+      `})]})},sh="/assets/avatar-DctXrvDJ.jpg",rh=({setCurrentSection:A})=>{const O=()=>{A("projects"),document.getElementById("projects").scrollIntoView({behavior:"smooth"})};return s.jsxs("section",{id:"home",className:"section hero",style:{"--section-bg":"#f5f9f7","--section-bg2":"#e8efea"},children:[s.jsx("div",{className:"hero-content",children:s.jsxs("div",{className:"hero-text",children:[s.jsx("div",{className:"hero-badge",children:s.jsx("span",{children:"Software Engineer II"})}),s.jsxs("div",{className:"hero-title-section",children:[s.jsx("h1",{className:"hero-title",children:"Alisha Taylor"}),s.jsx("div",{className:"hero-avatar",children:s.jsx("img",{src:sh,alt:"Alisha Taylor avatar",className:"avatar-img",loading:"lazy"})})]}),s.jsx("span",{className:"hero-subtitle",children:"Still believes in the magic of coding"}),s.jsx("p",{className:"hero-description",children:"Crafting digital adventures with 5+ years of coding expertise. Specializing in Ruby on Rails, React, and JavaScript. Seeking remote opportunities in education, open source, and mission-driven companies."}),s.jsxs("div",{className:"hero-location",children:[s.jsx(dd,{size:16}),s.jsx("span",{children:"Open to Remote Worldwide (US citizen, US/UK time zone–friendly preferred)"})]}),s.jsxs("div",{className:"hero-actions",children:[s.jsxs("a",{href:"https://github.com/atayl16",target:"_blank",rel:"noopener noreferrer",className:"btn btn-outline",children:[s.jsx(qu,{size:18})," GitHub"]}),s.jsxs("a",{href:"https://www.linkedin.com/in/alisha-t-098785180/",target:"_blank",rel:"noopener noreferrer",className:"btn btn-outline",children:[s.jsx(nf,{size:18})," LinkedIn"]}),s.jsxs("button",{onClick:O,className:"btn btn-outline",children:[s.jsx(rd,{size:18})," View Projects"]})]}),s.jsxs("div",{className:"quick-stats-row fade-in-up",children:[s.jsxs("div",{className:"stat-item",children:[s.jsx("span",{className:"stat-number",children:"5+"}),s.jsx("span",{className:"stat-label",children:"Years Coding"})]}),s.jsx("div",{className:"stat-divider"}),s.jsxs("div",{className:"stat-item",children:[s.jsx("span",{className:"stat-number",children:"10+"}),s.jsx("span",{className:"stat-label",children:"Years Tech"})]}),s.jsx("div",{className:"stat-divider"}),s.jsxs("div",{className:"stat-item",children:[s.jsx("span",{className:"stat-number",children:"3"}),s.jsx("span",{className:"stat-label",children:"Projects"})]}),s.jsx("div",{className:"stat-divider"}),s.jsxs("div",{className:"stat-item",children:[s.jsx("span",{className:"stat-number",children:"∞"}),s.jsx("span",{className:"stat-label",children:"Possibilities"})]})]})]})}),s.jsx("div",{className:"hero-scroll",children:s.jsx("button",{onClick:O,className:"scroll-button","aria-label":"Scroll to projects section",children:s.jsx(Wm,{size:24})})}),s.jsx("div",{className:"section-divider",children:s.jsxs("svg",{viewBox:"0 0 700 48",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:[s.jsx("path",{d:"M20 24 Q 80 0 160 24 Q 240 48 320 24 Q 350 12 380 24 Q 460 48 540 24 Q 620 0 680 24",stroke:"#b7a77a",strokeWidth:"4",fill:"none"}),s.jsx("path",{d:"M20 24 Q 80 40 160 24 Q 240 8 320 24 Q 350 36 380 24 Q 460 8 540 24 Q 620 40 680 24",stroke:"#355e3b",strokeWidth:"2.5",fill:"none"}),s.jsx("ellipse",{cx:"350",cy:"24",rx:"10",ry:"6",stroke:"#b7a77a",strokeWidth:"2",fill:"none"}),s.jsx("ellipse",{cx:"350",cy:"24",rx:"5",ry:"3",stroke:"#355e3b",strokeWidth:"1.5",fill:"none"})]})}),s.jsx("style",{children:`
         .hero {
           width: 100vw;
           min-height: 100vh;
@@ -176,9 +176,9 @@ Error generating stack: `+a.message+`
           max-width: 1100px;
           margin: 0 auto;
           display: flex;
-          flex-direction: row;
-          gap: var(--spacing-lg);
-          align-items: flex-start;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
           position: relative;
           z-index: 2;
           padding-top: 120px;
@@ -189,6 +189,8 @@ Error generating stack: `+a.message+`
           align-items: center;
           justify-content: center;
           flex: 0 0 80px;
+          margin-right: 0;
+          margin-bottom: var(--spacing-lg);
         }
         .avatar-img {
           width: 80px;
@@ -208,13 +210,14 @@ Error generating stack: `+a.message+`
           max-width: 700px;
           display: flex;
           flex-direction: column;
-          align-items: flex-start;
+          align-items: center;
         }
         .hero-title-section {
           display: flex;
           align-items: center;
           gap: var(--spacing-lg);
           margin-bottom: var(--spacing-xs);
+          justify-content: center;
         }
         .hero-badge {
           display: inline-block;
@@ -376,7 +379,7 @@ Error generating stack: `+a.message+`
             height: 80px;
           }
         }
-      `})]})},oh="/portfolio/assets/family-messaging-kSG9xKJu.png",dh="/portfolio/assets/siege-clan-DmNjK22-.png",mh="/portfolio/assets/islam4kids-DYEDS_7X.png",hh=()=>{const A=[{id:"family-messaging",title:"Family Messaging App",subtitle:"Secure Real-time Communication",description:"A private messaging platform built with React frontend and Rails API backend. Features real-time chat, secure access controls, and family-friendly interface. Live demo is private for family use. Demo available by request.",tech:["React","Ruby on Rails","WebSocket","PostgreSQL","Netlify"],image:oh,github:"https://github.com/atayl16/family-messaging",live:"mailto:inspirebyexample0@gmail.com?subject=Request%20for%20Family%20Messaging%20App%20Demo",icon:nh,status:"Live",category:"Full Stack"},{id:"siege-clan",title:"Siege Clan Tracker",subtitle:"OSRS Game Clan Tracker",description:"Originally built in Rails, now being rebuilt in React + Supabase. Tracks clan activities, member statistics, and game achievements for Old School RuneScape players.",tech:["React","Supabase","TypeScript","Vite","Netlify"],image:dh,github:"https://github.com/atayl16/siege-clan-tracker",live:"https://siege-clan.com",icon:lh,status:"Live",category:"Full Stack"},{id:"islam4kids",title:"Islam4Kids Games",subtitle:"Educational Islamic Games",description:"React app with educational Islamic games designed for nonprofit use. Features interactive learning modules, progress tracking, and child-friendly interface.",tech:["React","JavaScript","CSS3","Local Storage","Responsive Design"],image:mh,github:"https://github.com/atayl16/islam4kids-games",live:"https://islam4kids.netlify.app/",icon:uf,status:"Live",category:"Frontend"}];return s.jsxs("section",{id:"projects",className:"section projects",style:{"--section-bg":"#f6f3ee","--section-bg2":"#e8efea"},children:[s.jsxs("div",{className:"container",children:[s.jsxs("div",{className:"section-header",children:[s.jsx("h2",{children:"Adventure Log"}),s.jsx("p",{children:"Epic quests and digital conquests from my coding journey"})]}),s.jsx("div",{className:"projects-grid",children:A.map(O=>{const Z=O.icon;return s.jsxs("div",{className:"project-card card",role:"article",children:[s.jsx("div",{className:"project-image",children:s.jsx("img",{src:O.image,alt:O.title})}),s.jsxs("div",{className:"project-header",children:[s.jsx("div",{className:"project-icon",children:s.jsx(Z,{size:24})}),s.jsxs("div",{className:"project-meta",children:[s.jsx("span",{className:`project-status ${O.status.toLowerCase().replace(" ","-")}`,children:O.status}),s.jsx("span",{className:"project-category",children:O.category})]})]}),s.jsxs("div",{className:"project-content",children:[s.jsx("h3",{className:"project-title",children:O.title}),s.jsx("p",{className:"project-subtitle",children:O.subtitle}),s.jsx("p",{className:"project-description",children:O.description}),s.jsx("div",{className:"project-tech",children:O.tech.map(g=>s.jsx("span",{className:"tech-tag",children:g},g))})]}),s.jsxs("div",{className:"project-actions",children:[O.github&&s.jsxs("a",{href:O.github,target:"_blank",rel:"noopener noreferrer",className:"btn btn-secondary",children:[s.jsx(qu,{size:16}),"Code"]}),O.live&&s.jsxs("a",{href:O.live,target:O.id==="family-messaging"?void 0:"_blank",rel:O.id==="family-messaging"?void 0:"noopener noreferrer",className:"btn",children:[s.jsx(Pm,{size:16}),O.id==="family-messaging"?"Demo Request":"Live Demo"]})]})]},O.id)})})]}),s.jsx("div",{className:"section-divider",children:s.jsxs("svg",{viewBox:"0 0 700 48",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:[s.jsx("path",{d:"M20 24 Q 80 0 160 24 Q 240 48 320 24 Q 350 12 380 24 Q 460 48 540 24 Q 620 0 680 24",stroke:"#b7a77a","stroke-width":"4",fill:"none"}),s.jsx("path",{d:"M20 24 Q 80 40 160 24 Q 240 8 320 24 Q 350 36 380 24 Q 460 8 540 24 Q 620 40 680 24",stroke:"#355e3b","stroke-width":"2.5",fill:"none"}),s.jsx("ellipse",{cx:"350",cy:"24",rx:"10",ry:"6",stroke:"#b7a77a","stroke-width":"2",fill:"none"}),s.jsx("ellipse",{cx:"350",cy:"24",rx:"5",ry:"3",stroke:"#355e3b","stroke-width":"1.5",fill:"none"})]})}),s.jsx("style",{children:`
+      `})]})},oh="/assets/family-messaging-kSG9xKJu.png",dh="/assets/siege-clan-DmNjK22-.png",mh="/assets/islam4kids-DYEDS_7X.png",hh=()=>{const A=[{id:"family-messaging",title:"Family Messaging App",subtitle:"Secure Real-time Communication",description:"A private messaging platform built with React frontend and Rails API backend. Features real-time chat, secure access controls, and family-friendly interface. Live demo is private for family use. Demo available by request.",tech:["React","Ruby on Rails","WebSocket","PostgreSQL","Netlify"],image:oh,github:"https://github.com/atayl16/family-messaging",live:"mailto:inspirebyexample0@gmail.com?subject=Request%20for%20Family%20Messaging%20App%20Demo",icon:nh,status:"Live",category:"Full Stack"},{id:"siege-clan",title:"Siege Clan Tracker",subtitle:"OSRS Game Clan Tracker",description:"Originally built in Rails, now being rebuilt in React + Supabase. Tracks clan activities, member statistics, and game achievements for Old School RuneScape players.",tech:["React","Supabase","TypeScript","Vite","Netlify"],image:dh,github:"https://github.com/atayl16/siege-clan-tracker",live:"https://siege-clan.com",icon:lh,status:"Live",category:"Full Stack"},{id:"islam4kids",title:"Islam4Kids Games",subtitle:"Educational Islamic Games",description:"React app with educational Islamic games designed for nonprofit use. Features interactive learning modules, progress tracking, and child-friendly interface.",tech:["React","JavaScript","CSS3","Local Storage","Responsive Design"],image:mh,github:"https://github.com/atayl16/islam4kids-games",live:"https://islam4kids.netlify.app/",icon:uf,status:"Live",category:"Frontend"}];return s.jsxs("section",{id:"projects",className:"section projects",style:{"--section-bg":"#f6f3ee","--section-bg2":"#e8efea"},children:[s.jsxs("div",{className:"container",children:[s.jsxs("div",{className:"section-header",children:[s.jsx("h2",{children:"Adventure Log"}),s.jsx("p",{children:"Epic quests and digital conquests from my coding journey"})]}),s.jsx("div",{className:"projects-grid",children:A.map(O=>{const Z=O.icon;return s.jsxs("div",{className:"project-card card",role:"article",children:[s.jsx("div",{className:"project-image",children:s.jsx("img",{src:O.image,alt:O.title})}),s.jsxs("div",{className:"project-header",children:[s.jsx("div",{className:"project-icon",children:s.jsx(Z,{size:24})}),s.jsxs("div",{className:"project-meta",children:[s.jsx("span",{className:`project-status ${O.status.toLowerCase().replace(" ","-")}`,children:O.status}),s.jsx("span",{className:"project-category",children:O.category})]})]}),s.jsxs("div",{className:"project-content",children:[s.jsx("h3",{className:"project-title",children:O.title}),s.jsx("p",{className:"project-subtitle",children:O.subtitle}),s.jsx("p",{className:"project-description",children:O.description}),s.jsx("div",{className:"project-tech",children:O.tech.map(g=>s.jsx("span",{className:"tech-tag",children:g},g))})]}),s.jsxs("div",{className:"project-actions",children:[O.github&&s.jsxs("a",{href:O.github,target:"_blank",rel:"noopener noreferrer",className:"btn btn-secondary",children:[s.jsx(qu,{size:16}),"Code"]}),O.live&&s.jsxs("a",{href:O.live,target:O.id==="family-messaging"?void 0:"_blank",rel:O.id==="family-messaging"?void 0:"noopener noreferrer",className:"btn",children:[s.jsx(Pm,{size:16}),O.id==="family-messaging"?"Demo Request":"Live Demo"]})]})]},O.id)})})]}),s.jsx("div",{className:"section-divider",children:s.jsxs("svg",{viewBox:"0 0 700 48",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:[s.jsx("path",{d:"M20 24 Q 80 0 160 24 Q 240 48 320 24 Q 350 12 380 24 Q 460 48 540 24 Q 620 0 680 24",stroke:"#b7a77a","stroke-width":"4",fill:"none"}),s.jsx("path",{d:"M20 24 Q 80 40 160 24 Q 240 8 320 24 Q 350 36 380 24 Q 460 8 540 24 Q 620 40 680 24",stroke:"#355e3b","stroke-width":"2.5",fill:"none"}),s.jsx("ellipse",{cx:"350",cy:"24",rx:"10",ry:"6",stroke:"#b7a77a","stroke-width":"2",fill:"none"}),s.jsx("ellipse",{cx:"350",cy:"24",rx:"5",ry:"3",stroke:"#355e3b","stroke-width":"1.5",fill:"none"})]})}),s.jsx("style",{children:`
         .projects {
           /* Remove background styling, now handled by .section */
         }
@@ -815,7 +818,89 @@ Error generating stack: `+a.message+`
           display: none !important;
         }
       `})]})},gh=()=>{const[A,O]=Xt.useState({name:"",email:"",company:"",message:""}),[Z,g]=Xt.useState(!1),[Q,V]=Xt.useState(null),C=[{icon:od,title:"Email",value:"inspirebyexample0@gmail.com",link:"mailto:inspirebyexample0@gmail.com",description:"Direct communication for opportunities"},{icon:nf,title:"LinkedIn",value:"linkedin.com/in/alisha-t-098785180",link:"https://www.linkedin.com/in/alisha-t-098785180/",description:"Professional network and updates"},{icon:qu,title:"GitHub",value:"github.com/atayl16",link:"https://github.com/atayl16",description:"Code repositories and contributions"},{icon:dd,title:"Location",value:"US citizen (open to remote worldwide, US/UK time zone–friendly preferred)",link:null,description:""}];return s.jsxs("section",{id:"contact",className:"section contact",style:{"--section-bg":"#f6f3ee","--section-bg2":"#f5f9f7"},children:[s.jsxs("div",{className:"container",children:[s.jsxs("div",{className:"section-header",children:[s.jsx("h2",{children:"Let's Connect"}),s.jsx("p",{className:"contact-intro-text",children:"Interested in working together or have an opportunity? Reach out via email, LinkedIn, or GitHub below!"})]}),s.jsx("div",{className:"contact-content",children:s.jsxs("div",{className:"contact-info centered-contact",children:[s.jsxs("div",{className:"contact-intro",children:[s.jsx("h3",{children:"Let's Build Something Amazing"}),s.jsx("p",{children:"I'm actively seeking remote opportunities in productivity tools, ethical tech, open-source, and meaningful projects. I hope to find purpose in my work while avoiding roles involving NSFW content, gambling, insurance, or lending/interest."}),s.jsxs("div",{className:"contact-preferences",children:[s.jsx("h4",{children:"What I'm Looking For:"}),s.jsxs("ul",{children:[s.jsx("li",{children:"🌍 Open source projects"}),s.jsx("li",{children:"💚 Mission-driven organizations"}),s.jsx("li",{children:"🏠 Remote-first opportunities"}),s.jsx("div",{className:"salary-range",children:"💰 $100k–$130k USD (flexible for mission-driven teams)"}),s.jsx("li",{children:"⏰ US/UK time zone–friendly preferred"})]})]})]}),s.jsx("div",{className:"contact-methods",children:C.map(w=>s.jsxs("div",{className:"method",children:[s.jsx("div",{className:"method-icon",children:w.icon&&s.jsx(w.icon,{})}),s.jsxs("div",{className:"method-content",children:[s.jsx("h4",{children:w.title}),w.link?s.jsx("a",{href:w.link,target:w.link.startsWith("http")?"_blank":"_self",rel:w.link.startsWith("http")?"noopener noreferrer":"",className:"method-link",children:w.value}):s.jsx("span",{className:"method-value",children:w.value}),s.jsx("p",{children:w.description})]})]},w.title))})]})})]}),s.jsx("div",{className:"section-divider",children:s.jsxs("svg",{viewBox:"0 0 700 48",fill:"none",xmlns:"http://www.w3.org/2000/svg",children:[s.jsx("path",{d:"M20 24 Q 80 0 160 24 Q 240 48 320 24 Q 350 12 380 24 Q 460 48 540 24 Q 620 0 680 24",stroke:"#b7a77a","stroke-width":"4",fill:"none"}),s.jsx("path",{d:"M20 24 Q 80 40 160 24 Q 240 8 320 24 Q 350 36 380 24 Q 460 8 540 24 Q 620 40 680 24",stroke:"#355e3b","stroke-width":"2.5",fill:"none"}),s.jsx("ellipse",{cx:"350",cy:"24",rx:"10",ry:"6",stroke:"#b7a77a","stroke-width":"2",fill:"none"}),s.jsx("ellipse",{cx:"350",cy:"24",rx:"5",ry:"3",stroke:"#355e3b","stroke-width":"1.5",fill:"none"})]})}),s.jsx("style",{children:`
-        /* Add your styles here or paste the previous styles if needed */
+        .contact-content {
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          width: 100%;
+        }
+        .centered-contact {
+          max-width: 900px;
+          margin: 0 auto;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .contact-methods {
+          margin-top: var(--spacing-xl);
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: var(--spacing-lg);
+          width: 100%;
+        }
+        .method {
+          display: flex;
+          gap: var(--spacing-lg);
+          padding: var(--spacing-xl);
+          background: var(--parchment);
+          border-radius: var(--border-radius);
+          border: 2px solid var(--sage);
+          transition: var(--transition-medium);
+          box-shadow: var(--shadow-light);
+        }
+        .method:hover {
+          transform: translateY(-3px);
+          box-shadow: var(--shadow-medium);
+          border-color: var(--primary);
+        }
+        .method-icon {
+          background: var(--forest-green);
+          color: var(--white);
+          padding: var(--spacing-md);
+          border-radius: 12px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-shrink: 0;
+          width: 48px;
+          height: 48px;
+          box-shadow: var(--shadow-light);
+        }
+        .method-content {
+          flex: 1;
+        }
+        .method-content h4 {
+          margin-bottom: var(--spacing-sm);
+          color: var(--primary);
+          font-size: 1.1rem;
+          font-weight: 600;
+        }
+        .method-link,
+        .method-value {
+          display: block;
+          color: var(--primary);
+          font-weight: 600;
+          text-decoration: none;
+          margin-bottom: var(--spacing-xs);
+          font-size: 1rem;
+          transition: var(--transition-fast);
+        }
+        .method-link:hover {
+          color: var(--secondary);
+          text-decoration: underline;
+        }
+        .method-content p {
+          font-size: 0.9rem;
+          color: var(--text);
+          margin: 0;
+          line-height: 1.5;
+        }
+        @media (max-width: 900px) {
+          .contact-methods {
+            grid-template-columns: 1fr;
+          }
+        }
       `})]})},yh=()=>{const A=new Date().getFullYear();return s.jsxs("footer",{className:"footer",children:[s.jsxs("div",{className:"container",children:[s.jsxs("div",{className:"footer-content",children:[s.jsxs("div",{className:"footer-brand",children:[s.jsxs("div",{className:"footer-logo",children:[s.jsx(uf,{size:24}),s.jsx("span",{children:"Alisha Taylor"})]}),s.jsx("p",{className:"footer-tagline",children:"Software Ranger • Code Adventurer • Digital Craftsman"})]}),s.jsxs("div",{className:"footer-links",children:[s.jsxs("div",{className:"footer-section",children:[s.jsx("h4",{children:"Navigation"}),s.jsxs("nav",{className:"footer-nav",children:[s.jsx("a",{href:"#home",children:"Home"}),s.jsx("a",{href:"#projects",children:"Projects"}),s.jsx("a",{href:"#skills",children:"Skills"}),s.jsx("a",{href:"#contact",children:"Contact"})]})]}),s.jsxs("div",{className:"footer-section",children:[s.jsx("h4",{children:"Connect"}),s.jsxs("ul",{children:[s.jsx("li",{children:s.jsxs("a",{href:"https://github.com/atayl16",target:"_blank",rel:"noopener noreferrer",children:[s.jsx(qu,{size:16}),"GitHub"]})}),s.jsx("li",{children:s.jsxs("a",{href:"https://www.linkedin.com/in/alisha-t-098785180/",target:"_blank",rel:"noopener noreferrer",children:[s.jsx(nf,{size:16}),"LinkedIn"]})}),s.jsx("li",{children:s.jsxs("div",{className:"footer-section",children:[s.jsx("h4",{children:"Email"}),s.jsx("a",{href:"mailto:inspirebyexample0@gmail.com",children:"inspirebyexample0@gmail.com"})]})})]})]}),s.jsxs("div",{className:"footer-section",children:[s.jsx("h4",{children:"Location"}),s.jsx("div",{className:"footer-location",children:s.jsx("p",{children:"Open to Remote Worldwide (US citizen, US/UK time zone–friendly preferred)"})})]})]})]}),s.jsxs("div",{className:"footer-bottom",children:[s.jsxs("div",{className:"footer-copyright",children:[s.jsxs("p",{children:["© ",A," Alisha Taylor. All rights reserved."]}),s.jsxs("p",{className:"footer-message",children:["Crafted with ",s.jsx(th,{size:14,className:"heart-icon"})," and a touch of magic"]})]}),s.jsxs("div",{className:"footer-adventure",children:[s.jsx(md,{size:16}),s.jsx("span",{children:"Ready for the next coding adventure!"})]})]})]}),s.jsx("style",{children:`
         .footer {
           background: var(--primary);
