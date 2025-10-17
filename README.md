@@ -13,7 +13,7 @@ A fantasy-themed personal portfolio showcasing my skills, projects, and professi
 - **Accessibility First**: WCAG compliant with proper focus states and ARIA labels
 
 ### 🚀 Technical Features
-- **Modern React 19**: Latest React features and hooks
+- **React 18.3.1**: Stable React with excellent testing compatibility
 - **Vite Build System**: Lightning-fast development and builds
 - **CSS-in-JS Styling**: Scoped styles with styled-jsx
 - **Testing Suite**: Jest + React Testing Library
@@ -21,16 +21,17 @@ A fantasy-themed personal portfolio showcasing my skills, projects, and professi
 - **Performance Optimized**: Lazy loading, optimized images, minimal bundle size
 
 ### 📱 Sections
-- **Hero Section**: Above-the-fold key information with animated stats
-- **Projects Showcase**: Four featured projects with detailed descriptions
-- **Skills Matrix**: Interactive skill categories with proficiency levels
-- **Contact Form**: Professional contact form with validation
+- **Hero Section**: Above-the-fold key information with animated stats (20+ projects)
+- **Skills Matrix**: Interactive skill categories with detailed descriptions
+- **Projects Showcase**: Three featured projects with detailed descriptions
+- **Experience Timeline**: Professional journey with "Guild Chronicles"
+- **Contact Information**: Professional contact methods and availability
 - **Responsive Navigation**: Smooth scrolling with mobile hamburger menu
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React 19** - Modern UI library
+- **React 18.3.1** - Stable UI library with testing compatibility
 - **Vite** - Build tool and dev server
 - **Lucide React** - Beautiful icons
 - **CSS-in-JS** - Scoped styling
@@ -101,9 +102,10 @@ alisha-portfolio/
 │   ├── components/         # React components
 │   │   ├── Header.jsx     # Navigation component
 │   │   ├── Hero.jsx       # Hero section
-│   │   ├── Projects.jsx   # Projects showcase
+│   │   ├── Experience.jsx # Experience timeline
 │   │   ├── Skills.jsx     # Skills matrix
-│   │   ├── Contact.jsx    # Contact form
+│   │   ├── Projects.jsx   # Projects showcase
+│   │   ├── Contact.jsx    # Contact information
 │   │   ├── Footer.jsx     # Footer component
 │   │   └── __tests__/     # Component tests
 │   ├── assets/            # Images and static files
@@ -125,22 +127,19 @@ alisha-portfolio/
 ### 1. Family Messaging App
 - **Tech**: React + Rails API + WebSocket
 - **Features**: Real-time chat, secure access
-- **Status**: Live on Netlify
+- **Status**: Live (private demo available)
 
-### 2. Siege Clan Website
+### 2. Siege Clan Tracker
 - **Tech**: React + Supabase + TypeScript
 - **Features**: OSRS game clan tracker
-- **Status**: In Development
+- **Status**: Live at siege-clan.com
 
-### 3. Data Wizard
-- **Tech**: Ruby on Rails + PostgreSQL
-- **Features**: QA automation tool
-- **Status**: Internal tool (5+ years in use)
-
-### 4. Islam4Kids Games
+### 3. Islam4Kids Games
 - **Tech**: React + JavaScript
 - **Features**: Educational Islamic games
 - **Status**: Live on Netlify
+
+*Note: Portfolio showcases 20+ projects total across various technologies*
 
 ## 🌟 Skills Highlighted
 
@@ -182,6 +181,21 @@ alisha-portfolio/
 2. Install gh-pages: `npm install --save-dev gh-pages`
 3. Deploy: `npm run deploy`
 
+## ✨ Recent Updates
+
+### Mobile Responsiveness & UI Improvements
+- **Mobile-First Design**: Fixed hero text overflow and implemented 2x2 grid layout for stats on small screens
+- **Icon Alignment**: Perfect vertical alignment of icons in action buttons using flexbox
+- **Project Count Update**: Updated from "3" to "20+" projects to reflect actual portfolio
+- **Duplicate Content Removal**: Removed redundant stats box from Skills section
+- **Section Reordering**: Logical flow: Hero → Skills → Projects → Experience → Contact
+
+### Technical Improvements
+- **React 18.3.1**: Downgraded for better testing library compatibility
+- **Babel Configuration**: Added proper ES module support for Jest
+- **Test Coverage**: All 48 tests passing with comprehensive component coverage
+- **Accessibility**: Enhanced ARIA labels and semantic HTML structure
+
 ## 🧪 Testing
 
 The portfolio includes comprehensive tests demonstrating best practices:
@@ -219,8 +233,9 @@ Update CSS variables in `src/App.css`:
 
 ### Content Updates
 - **Personal Info**: Update `src/components/Hero.jsx`
-- **Projects**: Modify `src/components/Projects.jsx`
+- **Experience**: Modify `src/components/Experience.jsx`
 - **Skills**: Edit `src/components/Skills.jsx`
+- **Projects**: Update `src/components/Projects.jsx`
 - **Contact**: Update `src/components/Contact.jsx`
 
 ## 📱 Performance
@@ -259,9 +274,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Email**: alisha.taylor@example.com
-- **LinkedIn**: [linkedin.com/in/alishataylor](https://linkedin.com/in/alishataylor)
-- **GitHub**: [github.com/alishataylor](https://github.com/alishataylor)
+- **Email**: inspirebyexample0@gmail.com
+- **LinkedIn**: [linkedin.com/in/alisha-t-098785180](https://linkedin.com/in/alisha-t-098785180)
+- **GitHub**: [github.com/atayl16](https://github.com/atayl16)
 
 ---
 
