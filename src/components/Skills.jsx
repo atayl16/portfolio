@@ -77,7 +77,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="section skills" style={{
+    <section id="skills" className="section skills" aria-label="Skills" style={{
       '--section-bg': '#f5f9f7',
       '--section-bg2': '#f6f3ee'
     }}>
@@ -114,36 +114,13 @@ const Skills = () => {
           })}
         </div>
 
-        <div className="skills-summary">
-          <div className="summary-card card">
-            <h3>Experience Highlights</h3>
-            <div className="summary-grid">
-              <div className="summary-item">
-                <span className="summary-number">5+</span>
-                <span className="summary-label">Years Coding</span>
-              </div>
-              <div className="summary-item">
-                <span className="summary-number">10+</span>
-                <span className="summary-label">Years Tech</span>
-              </div>
-              <div className="summary-item">
-                <span className="summary-number">15+</span>
-                <span className="summary-label">Technologies</span>
-              </div>
-              <div className="summary-item">
-                <span className="summary-number">∞</span>
-                <span className="summary-label">Learning</span>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
       <div className="section-divider">
         <svg viewBox="0 0 700 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M20 24 Q 80 0 160 24 Q 240 48 320 24 Q 350 12 380 24 Q 460 48 540 24 Q 620 0 680 24" stroke="#b7a77a" stroke-width="4" fill="none"/>
-          <path d="M20 24 Q 80 40 160 24 Q 240 8 320 24 Q 350 36 380 24 Q 460 8 540 24 Q 620 40 680 24" stroke="#355e3b" stroke-width="2.5" fill="none"/>
-          <ellipse cx="350" cy="24" rx="10" ry="6" stroke="#b7a77a" stroke-width="2" fill="none"/>
-          <ellipse cx="350" cy="24" rx="5" ry="3" stroke="#355e3b" stroke-width="1.5" fill="none"/>
+          <path d="M20 24 Q 80 0 160 24 Q 240 48 320 24 Q 350 12 380 24 Q 460 48 540 24 Q 620 0 680 24" stroke="#b7a77a" strokeWidth="4" fill="none"/>
+          <path d="M20 24 Q 80 40 160 24 Q 240 8 320 24 Q 350 36 380 24 Q 460 8 540 24 Q 620 40 680 24" stroke="#355e3b" strokeWidth="2.5" fill="none"/>
+          <ellipse cx="350" cy="24" rx="10" ry="6" stroke="#b7a77a" strokeWidth="2" fill="none"/>
+          <ellipse cx="350" cy="24" rx="5" ry="3" stroke="#355e3b" strokeWidth="1.5" fill="none"/>
         </svg>
       </div>
       <style>{`
@@ -241,45 +218,6 @@ const Skills = () => {
           font-style: italic;
         }
 
-        .skills-summary {
-          max-width: 800px;
-          margin: 0 auto;
-        }
-
-        .summary-card {
-          text-align: center;
-          padding: var(--spacing-xl);
-        }
-
-        .summary-card h3 {
-          margin-bottom: var(--spacing-lg);
-          color: var(--forest-green);
-        }
-
-        .summary-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-          gap: var(--spacing-lg);
-        }
-
-        .summary-item {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: var(--spacing-xs);
-        }
-
-        .summary-number {
-          font-size: 2.5rem;
-          font-weight: bold;
-          color: var(--primary-gold);
-        }
-
-        .summary-label {
-          font-size: 0.9rem;
-          color: var(--forest-green);
-          font-weight: 500;
-        }
 
         @media (max-width: 768px) {
           .skills-grid {
@@ -292,9 +230,6 @@ const Skills = () => {
             gap: var(--spacing-md);
           }
 
-          .summary-grid {
-            grid-template-columns: repeat(2, 1fr);
-          }
         }
 
         .card::before, .card::after {

@@ -1,48 +1,6 @@
-import { Mail, Linkedin, Github, MapPin, Send, Heart } from 'lucide-react';
-import { useState } from 'react';
+import { Mail, Linkedin, Github, MapPin } from 'lucide-react';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    company: '',
-    message: '',
-  });
-
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState(null);
-
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value,
-    }));
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', company: '', message: '' });
-      
-      // Reset status after 3 seconds
-      setTimeout(() => setSubmitStatus(null), 3000);
-    }, 1000);
-  };
-
-  const handleEmailClick = e => {
-    // ... existing code ...
-  };
-
-  const handleLinkedInClick = e => {
-    // ... existing code ...
-  };
-
   const contactMethods = [
     {
       icon: Mail,
@@ -75,48 +33,28 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="section contact" style={{
+    <section id="contact" className="section contact" aria-label="Contact" style={{
       '--section-bg': '#f6f3ee',
       '--section-bg2': '#f5f9f7'
     }}>
       <div className="container">
         <div className="section-header">
-          <h2>Let's Connect</h2>
+          <h2>Let's Build Something Amazing</h2>
           <p className="contact-intro-text">
-            Interested in working together or have an opportunity? Reach out via
-            email, LinkedIn, or GitHub below!
+            I'm actively seeking remote opportunities in productivity tools, ethical tech, 
+            open-source, and meaningful projects. Looking for work that makes the world 
+            a little better — while avoiding NSFW content, gambling, insurance, or lending.
           </p>
         </div>
 
         <div className="contact-content">
           <div className="contact-info centered-contact">
-            <div className="contact-intro">
-              <h3>Let's Build Something Amazing</h3>
-              <p>
-                I'm actively seeking remote opportunities in productivity tools, 
-                ethical tech, open-source, and meaningful projects. I hope to find 
-                purpose in my work while avoiding roles involving NSFW content, 
-                gambling, insurance, or lending/interest.
-              </p>
-              <div className="contact-preferences">
-                <h4>What I'm Looking For:</h4>
-                <ul>
-                  <li>🌍 Open source projects</li>
-                  <li>💚 Mission-driven organizations</li>
-                  <li>🏠 Remote-first opportunities</li>
-                  <div className="salary-range">
-                    💰 $100k–$130k USD (flexible for mission-driven teams)
-                  </div>
-                  <li>⏰ US/UK time zone–friendly preferred</li>
-                </ul>
-              </div>
-            </div>
 
             <div className="contact-methods">
               {contactMethods.map(method => (
                 <div className="method" key={method.title}>
                   <div className="method-icon">
-                    {method.icon && <method.icon />}
+                    {method.icon && <method.icon size={20} />}
                   </div>
                   <div className="method-content">
                     <h4>{method.title}</h4>
@@ -142,10 +80,10 @@ const Contact = () => {
       </div>
       <div className="section-divider">
         <svg viewBox="0 0 700 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M20 24 Q 80 0 160 24 Q 240 48 320 24 Q 350 12 380 24 Q 460 48 540 24 Q 620 0 680 24" stroke="#b7a77a" stroke-width="4" fill="none"/>
-          <path d="M20 24 Q 80 40 160 24 Q 240 8 320 24 Q 350 36 380 24 Q 460 8 540 24 Q 620 40 680 24" stroke="#355e3b" stroke-width="2.5" fill="none"/>
-          <ellipse cx="350" cy="24" rx="10" ry="6" stroke="#b7a77a" stroke-width="2" fill="none"/>
-          <ellipse cx="350" cy="24" rx="5" ry="3" stroke="#355e3b" stroke-width="1.5" fill="none"/>
+          <path d="M20 24 Q 80 0 160 24 Q 240 48 320 24 Q 350 12 380 24 Q 460 48 540 24 Q 620 0 680 24" stroke="#b7a77a" strokeWidth="4" fill="none"/>
+          <path d="M20 24 Q 80 40 160 24 Q 240 8 320 24 Q 350 36 380 24 Q 460 8 540 24 Q 620 40 680 24" stroke="#355e3b" strokeWidth="2.5" fill="none"/>
+          <ellipse cx="350" cy="24" rx="10" ry="6" stroke="#b7a77a" strokeWidth="2" fill="none"/>
+          <ellipse cx="350" cy="24" rx="5" ry="3" stroke="#355e3b" strokeWidth="1.5" fill="none"/>
         </svg>
       </div>
       <style>{`
@@ -198,6 +136,11 @@ const Contact = () => {
           height: 48px;
           box-shadow: var(--shadow-light);
         }
+        .method-icon svg {
+          display: block;
+          margin: 0;
+          padding: 0;
+        }
         .method-content {
           flex: 1;
         }
@@ -230,6 +173,20 @@ const Contact = () => {
         @media (max-width: 900px) {
           .contact-methods {
             grid-template-columns: 1fr;
+          }
+          .method {
+            padding: var(--spacing-lg);
+          }
+        }
+        @media (max-width: 768px) {
+          .method {
+            flex-direction: column;
+            text-align: center;
+          }
+          .method-icon {
+            width: 56px;
+            height: 56px;
+            margin: 0 auto;
           }
         }
       `}</style>

@@ -19,9 +19,6 @@ const Hero = ({ setCurrentSection }) => {
     >
       <div className="hero-content">
         <div className="hero-text">
-          <div className="hero-badge">
-            <span>Software Engineer II</span>
-          </div>
           <div className="hero-title-section">
             <h1 className="hero-title">Alisha Taylor</h1>
             <div className="hero-avatar">
@@ -37,9 +34,11 @@ const Hero = ({ setCurrentSection }) => {
             Still believes in the magic of coding
           </span>
           <p className="hero-description">
-            Crafting digital adventures with 5+ years of coding expertise.
-            Specializing in Ruby on Rails, React, and JavaScript. Seeking remote
-            opportunities in education, open source, and mission-driven companies.
+            A Software Ranger with 5+ years of coding expertise and over a decade in tech. 
+            I discovered my love for building things while automating away tedious tasks — 
+            and never looked back. Now I craft Ruby on Rails and React applications that 
+            solve real problems for real people. Seeking remote quests in education, 
+            open source, and mission-driven work that makes the world a little better.
           </p>
           <div className="hero-location">
             <MapPin size={16} />
@@ -80,7 +79,7 @@ const Hero = ({ setCurrentSection }) => {
             </div>
             <div className="stat-divider" />
             <div className="stat-item">
-              <span className="stat-number">3</span>
+              <span className="stat-number">20+</span>
               <span className="stat-label">Projects</span>
             </div>
             <div className="stat-divider" />
@@ -159,8 +158,7 @@ const Hero = ({ setCurrentSection }) => {
           justify-content: center;
           position: relative;
           z-index: 2;
-          padding-top: 120px;
-          padding-bottom: 80px;
+          padding: 120px var(--spacing-lg) 80px;
         }
         .hero-avatar {
           display: flex;
@@ -189,24 +187,15 @@ const Hero = ({ setCurrentSection }) => {
           display: flex;
           flex-direction: column;
           align-items: center;
+          width: 100%;
+          padding: 0 var(--spacing-md);
         }
         .hero-title-section {
           display: flex;
           align-items: center;
           gap: var(--spacing-lg);
-          margin-bottom: var(--spacing-xs);
+          margin-bottom: var(--spacing-md);
           justify-content: center;
-        }
-        .hero-badge {
-          display: inline-block;
-          background: var(--secondary);
-          color: var(--button-text);
-          padding: var(--spacing-xs) var(--spacing-md);
-          border-radius: var(--border-radius);
-          font-size: 1rem;
-          font-weight: 600;
-          margin-bottom: var(--spacing-lg);
-          box-shadow: var(--box-shadow);
         }
         .hero-title {
           font-family: var(--font-heading);
@@ -230,6 +219,9 @@ const Hero = ({ setCurrentSection }) => {
           line-height: 1.7;
           margin-bottom: var(--spacing-lg);
           color: var(--text);
+          text-align: center;
+          word-wrap: break-word;
+          overflow-wrap: break-word;
         }
         .hero-location {
           display: flex;
@@ -257,8 +249,15 @@ const Hero = ({ setCurrentSection }) => {
           color: var(--button-text);
           border-color: var(--primary);
         }
+        .btn.btn-outline {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
         .btn.btn-outline svg {
           margin-right: var(--spacing-xs);
+          vertical-align: middle;
+          display: inline-block;
         }
         .quick-stats-row {
           display: flex;
@@ -275,6 +274,21 @@ const Hero = ({ setCurrentSection }) => {
           opacity: 0;
           transform: translateY(40px);
           animation: fadeInUp 1s 0.2s forwards;
+        }
+        @media (max-width: 480px) {
+          .quick-stats-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: var(--spacing-md);
+            padding: var(--spacing-lg);
+          }
+          .stat-divider {
+            display: none;
+          }
+          .stat-item {
+            text-align: center;
+          }
         }
         @keyframes fadeInUp {
           to {
@@ -329,8 +343,7 @@ const Hero = ({ setCurrentSection }) => {
         }
         @media (max-width: 1024px) {
           .hero-content {
-            padding-top: 80px;
-            padding-bottom: 40px;
+            padding: 80px var(--spacing-lg) 40px;
             align-items: center;
           }
           .hero-avatar {
@@ -343,8 +356,10 @@ const Hero = ({ setCurrentSection }) => {
         }
         @media (max-width: 768px) {
           .hero-content {
-            padding-top: 60px;
-            padding-bottom: 20px;
+            padding: 60px var(--spacing-md) 20px;
+          }
+          .hero-text {
+            padding: 0 var(--spacing-sm);
           }
           .hero-title {
             font-size: 2rem;
@@ -352,9 +367,46 @@ const Hero = ({ setCurrentSection }) => {
           .hero-subtitle {
             font-size: 1.1rem;
           }
+          .hero-description {
+            font-size: 1rem;
+            line-height: 1.6;
+          }
           .avatar-img {
             width: 80px;
             height: 80px;
+          }
+          .hero-actions {
+            flex-direction: column;
+            width: 100%;
+            max-width: 300px;
+          }
+          .btn.btn-outline {
+            width: 100%;
+            justify-content: center;
+          }
+        }
+        @media (max-width: 480px) {
+          .hero-content {
+            padding: 60px var(--spacing-sm) 20px;
+          }
+          .hero-text {
+            padding: 0 var(--spacing-xs);
+          }
+          .hero-title {
+            font-size: 1.8rem;
+          }
+          .hero-subtitle {
+            font-size: 1rem;
+          }
+          .hero-description {
+            font-size: 0.95rem;
+            line-height: 1.5;
+          }
+          .hero-location {
+            font-size: 0.9rem;
+            text-align: center;
+            flex-wrap: wrap;
+            justify-content: center;
           }
         }
       `}</style>

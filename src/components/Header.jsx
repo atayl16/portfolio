@@ -1,13 +1,14 @@
 import { useState } from 'react';
-import { Menu, X, Sword, Shield, BookOpen, Mail } from 'lucide-react';
+import { Menu, X, Home, Briefcase, Flame, BookOpen, Mail } from 'lucide-react';
 
 const Header = ({ currentSection, setCurrentSection }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { id: 'home', label: 'Home', icon: Shield },
-    { id: 'projects', label: 'Projects', icon: Sword },
+    { id: 'home', label: 'Home', icon: Home },
     { id: 'skills', label: 'Skills', icon: BookOpen },
+    { id: 'projects', label: 'Projects', icon: Flame },
+    { id: 'experience', label: 'Experience', icon: Briefcase },
     { id: 'contact', label: 'Contact', icon: Mail },
   ];
 

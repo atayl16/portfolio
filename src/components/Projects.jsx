@@ -123,10 +123,10 @@ const Projects = () => {
       </div>
       <div className="section-divider">
         <svg viewBox="0 0 700 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M20 24 Q 80 0 160 24 Q 240 48 320 24 Q 350 12 380 24 Q 460 48 540 24 Q 620 0 680 24" stroke="#b7a77a" stroke-width="4" fill="none"/>
-          <path d="M20 24 Q 80 40 160 24 Q 240 8 320 24 Q 350 36 380 24 Q 460 8 540 24 Q 620 40 680 24" stroke="#355e3b" stroke-width="2.5" fill="none"/>
-          <ellipse cx="350" cy="24" rx="10" ry="6" stroke="#b7a77a" stroke-width="2" fill="none"/>
-          <ellipse cx="350" cy="24" rx="5" ry="3" stroke="#355e3b" stroke-width="1.5" fill="none"/>
+          <path d="M20 24 Q 80 0 160 24 Q 240 48 320 24 Q 350 12 380 24 Q 460 48 540 24 Q 620 0 680 24" stroke="#b7a77a" strokeWidth="4" fill="none"/>
+          <path d="M20 24 Q 80 40 160 24 Q 240 8 320 24 Q 350 36 380 24 Q 460 8 540 24 Q 620 40 680 24" stroke="#355e3b" strokeWidth="2.5" fill="none"/>
+          <ellipse cx="350" cy="24" rx="10" ry="6" stroke="#b7a77a" strokeWidth="2" fill="none"/>
+          <ellipse cx="350" cy="24" rx="5" ry="3" stroke="#355e3b" strokeWidth="1.5" fill="none"/>
         </svg>
       </div>
       <style>{`

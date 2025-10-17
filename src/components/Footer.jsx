@@ -1,4 +1,4 @@
-import { Github, Linkedin, Heart, Sword, Shield } from 'lucide-react';
+import { Github, Linkedin, Mail, Heart, Sword, Shield } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -22,8 +22,9 @@ const Footer = () => {
               <h4>Navigation</h4>
               <nav className="footer-nav">
                 <a href="#home">Home</a>
-                <a href="#projects">Projects</a>
                 <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
                 <a href="#contact">Contact</a>
               </nav>
             </div>
@@ -52,10 +53,10 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <div className="footer-section">
-                    <h4>Email</h4>
-                    <a href="mailto:inspirebyexample0@gmail.com">inspirebyexample0@gmail.com</a>
-                  </div>
+                  <a href="mailto:inspirebyexample0@gmail.com">
+                    <Mail size={16} />
+                    Email
+                  </a>
                 </li>
               </ul>
             </div>

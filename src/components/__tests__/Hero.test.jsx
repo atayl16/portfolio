@@ -5,12 +5,23 @@ import Hero from '../Hero';
 const mockSetCurrentSection = jest.fn();
 
 // Mock scrollIntoView
-Element.prototype.scrollIntoView = jest.fn();
+const mockScrollIntoView = jest.fn();
+Element.prototype.scrollIntoView = mockScrollIntoView;
+
+// Mock getElementById to return an element with scrollIntoView
+const mockProjectsElement = {
+  scrollIntoView: mockScrollIntoView
+};
 
 describe('Hero Component', () => {
   beforeEach(() => {
     mockSetCurrentSection.mockClear();
-    Element.prototype.scrollIntoView.mockClear();
+    mockScrollIntoView.mockClear();
+    // Mock document.getElementById to return our mock element
+    document.getElementById = jest.fn((id) => {
+      if (id === 'projects') return mockProjectsElement;
+      return null;
+    });
   });
 
   test('renders hero section with main content', () => {
@@ -18,9 +29,8 @@ describe('Hero Component', () => {
 
     // Check for main hero elements
     expect(screen.getByText('Alisha Taylor')).toBeInTheDocument();
-    expect(screen.getByText('The Code Ranger')).toBeInTheDocument();
-    expect(screen.getByText(/Crafting digital adventures/)).toBeInTheDocument();
-    expect(screen.getByText('🌟 Software Engineer II')).toBeInTheDocument();
+    expect(screen.getByText(/Still believes in the magic of coding/)).toBeInTheDocument();
+    expect(screen.getByText(/Software Ranger with 5\+ years/)).toBeInTheDocument();
   });
 
   test('displays location information', () => {
@@ -44,12 +54,11 @@ describe('Hero Component', () => {
   test('renders stats card with experience information', () => {
     render(<Hero setCurrentSection={mockSetCurrentSection} />);
 
-    expect(screen.getByText('Quick Stats')).toBeInTheDocument();
     expect(screen.getByText('5+')).toBeInTheDocument();
     expect(screen.getByText('Years Coding')).toBeInTheDocument();
     expect(screen.getByText('10+')).toBeInTheDocument();
     expect(screen.getByText('Years Tech')).toBeInTheDocument();
-    expect(screen.getByText('4')).toBeInTheDocument();
+    expect(screen.getByText('20+')).toBeInTheDocument();
     expect(screen.getByText('Projects')).toBeInTheDocument();
     expect(screen.getByText('∞')).toBeInTheDocument();
     expect(screen.getByText('Possibilities')).toBeInTheDocument();
@@ -63,7 +72,7 @@ describe('Hero Component', () => {
     fireEvent.click(viewProjectsButton);
 
     expect(mockSetCurrentSection).toHaveBeenCalledWith('projects');
-    expect(Element.prototype.scrollIntoView).toHaveBeenCalledWith({ behavior: 'smooth' });
+    expect(mockScrollIntoView).toHaveBeenCalledWith({ behavior: 'smooth' });
   });
 
   test('scroll button scrolls to projects section', () => {
@@ -74,7 +83,7 @@ describe('Hero Component', () => {
     fireEvent.click(scrollButton);
 
     expect(mockSetCurrentSection).toHaveBeenCalledWith('projects');
-    expect(Element.prototype.scrollIntoView).toHaveBeenCalledWith({ behavior: 'smooth' });
+    expect(mockScrollIntoView).toHaveBeenCalledWith({ behavior: 'smooth' });
   });
 
   test('has proper accessibility attributes', () => {

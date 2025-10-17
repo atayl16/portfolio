@@ -18,18 +18,14 @@ describe('Skills Component', () => {
     expect(screen.getByText('Deployment Magic')).toBeInTheDocument();
   });
 
-  test('renders skill progress bars', () => {
+  test('renders skill items with descriptions', () => {
     render(<Skills />);
-    expect(screen.getAllByRole('progressbar').length).toBeGreaterThan(0);
-  });
-
-  test('renders experience highlights', () => {
-    render(<Skills />);
-    expect(screen.getByText('Experience Highlights')).toBeInTheDocument();
-    expect(screen.getByText('5+')).toBeInTheDocument();
-    expect(screen.getByText('Years Coding')).toBeInTheDocument();
-    expect(screen.getByText('10+')).toBeInTheDocument();
-    expect(screen.getByText('Years Tech')).toBeInTheDocument();
+    expect(screen.getByText('React')).toBeInTheDocument();
+    expect(screen.getByText('Ruby on Rails')).toBeInTheDocument();
+    expect(screen.getByText('PostgreSQL')).toBeInTheDocument();
+    expect(screen.getByText('Jest')).toBeInTheDocument();
+    expect(screen.getByText('Git/GitHub')).toBeInTheDocument();
+    expect(screen.getByText('Netlify')).toBeInTheDocument();
   });
 
   test('is accessible', () => {
