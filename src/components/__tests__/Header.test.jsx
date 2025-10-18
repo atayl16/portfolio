@@ -20,6 +20,7 @@ describe('Header Component', () => {
     expect(screen.getAllByRole('button', { name: /Projects/i })).toBeTruthy();
     expect(screen.getByRole('button', { name: /Experience/i })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: /Contact/i })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /Recommendations/i })).toBeInTheDocument();
   });
 
   test('highlights the active section', () => {

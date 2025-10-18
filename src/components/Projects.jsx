@@ -136,7 +136,7 @@ const Projects = () => {
 
         .section-header {
           text-align: center;
-          margin-bottom: var(--spacing-xxl);
+          margin-bottom: var(--section-header-spacing);
         }
 
         .section-header h2 {
@@ -154,6 +154,7 @@ const Projects = () => {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
           gap: var(--spacing-xl);
+          margin-bottom: var(--section-content-spacing);
         }
         @media (max-width: 1100px) {
           .projects-grid {

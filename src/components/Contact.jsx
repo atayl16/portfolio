@@ -32,6 +32,7 @@ const Contact = () => {
     },
   ];
 
+
   return (
     <section id="contact" className="section contact" aria-label="Contact" style={{
       '--section-bg': '#f6f3ee',
@@ -87,6 +88,28 @@ const Contact = () => {
         </svg>
       </div>
       <style>{`
+        .section-header {
+          text-align: center;
+          margin-bottom: var(--section-header-spacing);
+        }
+
+        .section-header h2 {
+          margin-bottom: var(--spacing-md);
+        }
+
+        .section-header p {
+          font-size: 1.1rem;
+          color: var(--dark-gray);
+          max-width: 600px;
+          margin: 0 auto;
+        }
+
+        .contact-intro-text {
+          font-size: 1.05rem;
+          line-height: 1.8;
+          margin-top: var(--spacing-md);
+        }
+
         .contact-content {
           display: flex;
           justify-content: center;
@@ -102,11 +125,11 @@ const Contact = () => {
           align-items: center;
         }
         .contact-methods {
-          margin-top: var(--spacing-xl);
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           gap: var(--spacing-lg);
           width: 100%;
+          margin-bottom: var(--section-content-spacing);
         }
         .method {
           display: flex;
@@ -189,6 +212,7 @@ const Contact = () => {
             margin: 0 auto;
           }
         }
+
       `}</style>
     </section>
   );

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X, Home, Briefcase, Flame, BookOpen, Mail } from 'lucide-react';
+import { Menu, X, Home, Briefcase, Flame, BookOpen, Mail, Star } from 'lucide-react';
 
 const Header = ({ currentSection, setCurrentSection }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,6 +10,7 @@ const Header = ({ currentSection, setCurrentSection }) => {
     { id: 'projects', label: 'Projects', icon: Flame },
     { id: 'experience', label: 'Experience', icon: Briefcase },
     { id: 'contact', label: 'Contact', icon: Mail },
+    { id: 'recommendations', label: 'Recommendations', icon: Star },
   ];
 
   const scrollToSection = (sectionId) => {

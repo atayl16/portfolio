@@ -42,6 +42,11 @@
   --spacing-lg: 1.5rem;
   --spacing-xl: 2rem;
   --spacing-xxl: 3rem;
+  --spacing-3xl: 4rem;
+  
+  /* Consistent section spacing */
+  --section-header-spacing: 3rem;
+  --section-content-spacing: 3rem;
   
   /* Shadows */
   --shadow-light: 0 2px 4px rgba(60, 80, 60, 0.08);
@@ -113,9 +118,6 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  border-bottom: 2px solid var(--sage);
-  padding-bottom: var(--spacing-sm);
-  display: inline-block;
   color: var(--primary);
   background: none;
 }

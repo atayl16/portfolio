@@ -124,11 +124,28 @@ const Experience = () => {
           position: relative;
         }
 
+        /* Section Header */
+        .section-header {
+          text-align: center;
+          margin-bottom: var(--section-header-spacing);
+        }
+
+        .section-header h2 {
+          margin-bottom: var(--spacing-md);
+        }
+
+        .section-header p {
+          font-size: 1.1rem;
+          color: var(--dark-gray);
+          max-width: 600px;
+          margin: 0 auto;
+        }
+
         /* Timeline Styles */
         .timeline-container {
           position: relative;
           max-width: 800px;
-          margin: var(--spacing-xxl) auto;
+          margin: 0 auto var(--spacing-xxl);
           padding: var(--spacing-xl) 0;
         }
 
@@ -193,7 +210,7 @@ const Experience = () => {
         .experience-grid {
           display: grid;
           gap: var(--spacing-xxl);
-          margin-top: var(--spacing-xxl);
+          margin-bottom: var(--section-content-spacing);
         }
 
         .experience-card {

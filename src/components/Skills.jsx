@@ -130,7 +130,7 @@ const Skills = () => {
 
         .section-header {
           text-align: center;
-          margin-bottom: var(--spacing-xxl);
+          margin-bottom: var(--section-header-spacing);
         }
 
         .section-header h2 {
@@ -148,7 +148,7 @@ const Skills = () => {
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
           gap: var(--spacing-xl);
-          margin-bottom: var(--spacing-xxl);
+          margin-bottom: var(--section-content-spacing);
         }
 
         .skill-category {
